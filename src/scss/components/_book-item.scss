@@ -1,0 +1,83 @@
+.book-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 350px;
+
+    .image-box {
+        margin: 0;
+        padding: 0;
+        height: 275px;
+        width: 200px;
+    }
+
+    &__image {
+        height: 275px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    &__title {
+        padding-top: 0px;
+        height: 20px;
+        width: 200px;
+        overflow-y: hidden;
+        overflow-x: visible;
+        font-family: 'Proxima Nove Regular';
+        font-size: 16px;
+        color: #444c63;
+        transition: 300ms;
+    }
+
+    &__author {
+        padding-top: 2px;
+        height: 25px;
+        width: 200px;
+        overflow: hidden;
+        font-family: 'Proxima Nove Regular';
+        color: #6f7d95;
+        font-size: 12px;
+    }
+
+    &__stats {
+        display: flex;
+        height: 15px;
+        transition: 200ms;
+
+        &:hover .stats-star {
+            opacity: 1;
+        }
+
+        .stats-star {
+            width: 15px;
+            height: 15px;
+            fill: #ffab00;
+            opacity: 0.3;
+            cursor: pointer;
+
+            &:hover {
+                fill: #ffab00;
+                opacity: 1;
+            }
+
+            &:hover~.stats-star {
+                fill: #ffab00;
+                opacity: 0.3;
+            }
+        }
+
+    }
+}
+
+.active-raiting-btn {
+    fill: #ffab00;
+    opacity: 1;
+}
+
+.disable-stars {
+    pointer-events: none;
+}

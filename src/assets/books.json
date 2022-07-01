@@ -1,0 +1,82 @@
+[{
+    "author": "Terry Hayes",
+    "description": "THE AMAZING NEW THRILLER FROM TERRY HAYES.",
+    "id": 0,
+    "imgUrl":
+      "https://images-na.ssl-images-amazon.com/images/I/51yzXRsP89L._SX319_BO1,204,203,200_.jpg",
+    "price": "£16.00",
+    "review": 3.2,
+    "title": "The Year of the Locust: Terry Hayes"
+  },
+
+  {
+    "author": "Stephen King",
+    "description":
+      "A dazzlingly shapeshifting novel . . . equally good at action scenes and in-depth psychology' The Sunday Times'A thriller with a surprisingly heartfelt and redemptive ending, Billy Summers is a compelling and engrossing read' Sunday ExpressFrom legendary storyteller and No. 1 bestseller Stephen King, whose 'restless imagination is a power that cannot be contained' (The New York Times Book Review), comes a thrilling new novel about a good guy in a bad job.Billy Summers is a man in a room with a gun. He's a killer for hire and the best in the business. But he'll do the job only if the target is a truly bad guy. And now Billy wants out. But first there is one last hit. Billy is among the best snipers in the world, a decorated Iraq war vet, a Houdini when it comes to vanishing after the job is done. So what could possibly go wrong? How about everything.This spectacular can't-put-it-down novel is part war story, part love letter to small town America and the people who live there, and it features one of the most compelling and surprising duos in King fiction, who set out to avenge the crimes of an extraordinarily evil man. It's about love, luck, fate, and a complex hero with one last shot at redemption. You won't put this story down, and you won't forget Billy.",
+    "id": 1,
+    "imgUrl":
+      "https://images-na.ssl-images-amazon.com/images/I/51CR2a6HU1S._SX323_BO1,204,203,200_.jpg",
+    "price": "£10.00",
+    "review": 4.6,
+    "title": "Billy Summers: The No. 1 Bestseller"
+  },
+
+  {
+    "author": "Abigail Dean",
+    "description":
+      "Sensational. Gripping, haunting, and beautifully written",
+    "id": 2,
+    "imgUrl":
+      "https://images-na.ssl-images-amazon.com/images/I/41xFykGq2fS._SX324_BO1,204,203,200_.jpg",
+    "price": "£4.50",
+    "review": 4.2,
+    "title":
+      "Girl A: The Sunday Times and New York Times global best seller, an astonishing new crime thriller debut novel from the biggest literary fiction voice of 2021"
+  },
+  {
+    "author": "John Grisham",
+    "description":
+      "***THE SUNDAY TIMES THRILLER OF THE MONTH***Nonstop suspense from the Sunday Times bestselling author: Investigator Lacy Stoltz follows the trail of a serial killer, and closes in on a shocking suspect - a sitting judge.In The Whistler, Lacy Stoltz investigated a corrupt judge who was taking millions in bribes from a crime syndicate. She put the criminals away, but only after being attacked and nearly killed. Three years later, and approaching forty, she is tired of her work for the Florida Board on Judicial Conduct and ready for a change.Then she meets a mysterious woman who is so frightened she uses a number of aliases. Jeri Crosby's father was murdered twenty years earlier in a case that remains unsolved and that has grown stone cold. But Jeri has a suspect whom she has become obsessed with and has stalked for two decades. Along the way, she has discovered other victims.Suspicions are easy enough, but proof seems impossible. The man is brilliant, patient, and always one step ahead of law enforcement. He is the most cunning of all serial killers. He knows forensics, police procedure, and most important: he knows the law.He is a judge, in Florida - under Lacy's jurisdiction.He has a list, with the names of his victims and targets, all unsuspecting people unlucky enough to have crossed his path and wronged him in some way. How can Lacy pursue him, without becoming the next name on his list?The Judge's List is by any measure John Grisham's most surprising, chilling novel yet.PRAISE FOR JOHN GRISHAM'When Grisham gets in the courtroom he lets rip, drawing scenes so real they're not just alive, they're pulsating' Mirror'A superb, instinctive storyteller' The Times'Storytelling genius . . . he is in a league of his own' Daily Record 350+ million copies, 45 languages, 9 blockbuster films:NO ONE WRITES DRAMA LIKE JOHN GRISHAM",
+    "id": 3,
+    "imgUrl":
+      "https://images-eu.ssl-images-amazon.com/images/I/41piAxEIYIL._SY291_BO1,204,203,200_QL40_ML2_.jpg",
+    "price": "£9.00",
+    "review": 4.4,
+    "title":
+      "The Judge's List: The phenomenal new novel from international bestseller John Grisham"
+  },
+  {
+    "author": "Lee Child",
+    "description":
+      "Reacher never backs down from a problem.And he's about to find a big one, on a deserted Arizona road, where a Jeep has crashed into the only tree for miles around. Under the merciless desert sun, nothing is as it seems.Minutes later Reacher is heading into the nearby border town, a backwater that has seen better days. Next to him is Michaela Fenton, an army veteran turned FBI agent, who is trying to find her twin brother. He might have got mixed up with some dangerous people.And Reacher might just need to pay them a visit.Their leader has burrowed his influence deep into the town. Just to get in and meet the mysterious Dendoncker, Reacher is going to have to achieve the impossible.To get answers will be even harder. There are people in this hostile, empty place who would rather die than reveal their secrets.But then, if Reacher is coming after you, you might be better off dead.***'Jack Reacher is today's James Bond, a thriller hero we can't get enough of.' Ken Follett'If you haven't read any Jack Reacher, you have a treat in store . . . a hitchhiker without a phone, a one-man force for good.' The Times'A contemporary version of the knight in shining armour . . . Reacher is a mythic figure.' Literary Review'Jack Reacher is a wonderfully epic hero; tough, taciturn, yet vulnerable... Irresistible.' People'Jack Reacher has long since earned his prominent place in the pantheon of cool, smart-talking American heroes.' New York Times",
+    "id": 4,
+    "imgUrl":
+      "https://images-na.ssl-images-amazon.com/images/I/51bkhS7IZtL._SX325_BO1,204,203,200_.jpg",
+    "price": "£10.00",
+    "review": 4.0,
+    "title": "Better Off Dead: (Jack Reacher 26)"
+  },
+  {
+    "author": "Joanne Harris",
+    "description":
+      "Your favourite authors have been gripped by this electric psychological thriller!'A dark world of emotional complexity and betrayal, where twist follows twist and nothing is what it seems' ALEX MICHAELIDES'Exhilarating, addictive, fierce' BRIDGET COLLINS'A psychological thriller you can't put down and an antiheroine you won't forget' HARLAN COBEN'Dark, Gothic, and propulsively readable - past secrets and present discoveries entangle in an intricately crafted conclusion' RUTH WARE'Engrossing, cunning, sharp, sinister . . . kept me enthralled till the final pages' CHRIS WHITAKER'A clever chess game of repressed fears, power struggles, secrets and lies' LUCY ATKINS 'A complex, chilling mystery full of shifting truths and dark corners where the unburied past lies in wait' TAMMY COHEN'A dark and richly enjoyable novel that already feels like a classic' ELLY GRIFFITHS'Irresistibly readable, dark and brilliant with a masterful emotional punch' CATRIONA WARD* * * * *Now I'm in charge, the gates are my gates. The rules are my rules. It's an incendiary moment for St Oswald's school. For the first time in its history, a headmistress is in power, the gates opening to girls.Rebecca Buckfast has spilled blood to reach this position. Barely forty, she is just starting to reap the harvest of her ambition. As the new regime takes on the old guard, the ground shifts. And with it, the remains of a body are discovered. But Rebecca is here to make her mark. She'll bury the past so deep it will evade even her own memory, just like she has done before. After all... You can't keep a good woman down.* * * * * Praise for Joanne Harris's other books set in the St Oswald's world - which all read as standalone thrillers: 'A masterpiece of misdirection' Val McDermid 'Delivers an almighty twist . . . brilliantly atmospheric ' The Times 'Crime novel or literary novel? Categories really don't matter; readers will find themselves comprehensively gripped' Independent '[A] gripping psychological thriller . . . Harris is one of our most accomplished novelists' Daily Express 'Marvellously mischievous' Good Housekeeping 'A classic whodunnit with the characters carefully crafted and the tension at a knife edge' Sunday Express '[A] delicious black comedy' Daily Mail",
+    "id": 5,
+    "imgUrl":
+     "https://images-na.ssl-images-amazon.com/images/I/51-pJi3HneS._SX323_BO1,204,203,200_.jpg",
+    "price": "£14.29",
+    "review": 4.4,
+    "title":
+      "A Narrow Door: The electric psychological thriller from the Sunday Times bestseller"
+  },
+  {
+    "author": "Dirk Cussler",
+    "description":
+      "DIRK PITT IS BACK. AND ON HIS SHOULDERS RESTS THE FATE OF THE ENTIRE PLANET.JOIN THE LATEST THRILL RIDE FROM THE GRAND MASTER OF ADVENTURE, CLIVE CUSSLER_________Tibet, 1959.In the turmoil of the Communist takeover of the mountain kingdom, a Buddhist artefact of immense importance appears to have been lost to history.Until, sixty years later, clues to its survival emerged from the wreckage of a cargo plane discovered deep beneath the surface of the Philippine Sea . . .NUMA Director Dirk Pitt and his old friend Al Giordino already have their hands full dealing with the recovery of a top secret hypersonic missile that went down in the Luzon Strait. Especially when it becomes clear that a rogue Chinese military team has its sights set on the same prize.And that, after making their own earth-shattering discovery about what lies below the waves, they're prepared to go to any lengths to ensure that they possess it.Any lengths at all.From the cold, dark depths of the Pacific Ocean to the vertiginous peaks of the Himalayas, only Dirk Pitt can unravel the mysteries that will bring the world back from the brink of war . . .Praise for Clive Cussler:'The Adventure King' Sunday Express'Just about the best in the business' New York Post 'Cussler is hard to beat' Daily Mail",
+    "id": 6,
+    "imgUrl":
+      "https://images-eu.ssl-images-amazon.com/images/I/51Mj0GqakoL._SY291_BO1,204,203,200_QL40_ML2_.jpg",
+    "price": "£10.00",
+    "review": 3.0,
+    "title": "Clive Cussler's The Devil's Sea"
+  }
+]

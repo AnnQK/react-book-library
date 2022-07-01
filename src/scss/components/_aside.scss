@@ -1,0 +1,215 @@
+.main__aside {
+    margin: 0;
+    width: 200px;
+    background-color: #1f2537;
+
+    .aside__btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        border-bottom: 5px #131724 solid;
+
+        &__btn::after {
+            position: absolute;
+            content: ' ';
+            z-index: 1;
+            top: 115px;
+            left: 0px;
+            right: 0px;
+            bottom: -1px;
+            background-color: #171d2b;
+        }
+
+    }
+
+    .add-book-btn {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 160px;
+        height: 45px;
+        background-color: #f1795a;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Proxima Nove Regular';
+        font-size: 13px;
+        transition: 300ms;
+
+        &:hover {
+            background-color: #c26148;
+        }
+    }
+
+    .aside__categories-navigation {
+        position: relative;
+        margin: 0;
+        height: 245px;
+        border-bottom: 5px #131724 solid;
+
+        &::before {
+            position: absolute;
+            content: ' ';
+            z-index: 1;
+            top: -1px;
+            left: 0px;
+            right: 0px;
+            bottom: 240px;
+            background-color: #77819d;
+        }
+
+        &::after {
+            position: absolute;
+            content: ' ';
+            z-index: 1;
+            top: 240px;
+            left: 0px;
+            right: 0px;
+            bottom: -1px;
+            background-color: #171d2b;
+        }
+
+        & .categories-navigation-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            list-style: none;
+        }
+
+        .categories-navigation-item {
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+.categories-navigation-btn {
+    padding: 12px 12px 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    font-family: 'Proxima Nove Regular';
+    background-color: transparent;
+    color: #78829d;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+
+    &:hover {
+        color: #fff;
+
+        & .svg-logo {
+            fill: #fff;
+        }
+    }
+}
+
+.categories-navigation-list .svg-logo {
+    width: 13px;
+    height: 13px;
+    fill: #77819d;
+    stroke: #77819d;
+}
+
+
+.categories-active-btn {
+    background-color: #15a3f9;
+    color: #fff;
+
+    & .svg-logo {
+        fill: #fff;
+    }
+}
+
+
+
+.aside__tags-list {
+    position: relative;
+    padding: 20px 0 0 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 187px;
+    border-bottom: 5px #131724 solid;
+    list-style: none;
+
+    &::before {
+        position: absolute;
+        content: ' ';
+        z-index: 1;
+        top: -1px;
+        left: 0;
+        right: 0;
+        bottom: 182px;
+        background-color: #77819d;
+    }
+
+    &::after {
+        position: absolute;
+        content: ' ';
+        z-index: 1;
+        top: 182px;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        background-color: #171d2b;
+    }
+}
+
+
+.btn-tag {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    color: #78829d;
+    font-family: 'Proxima Nove Regular';
+    font-size: 13px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        margin-bottom: 2px;
+        margin-right: 13px;
+        width: 5px;
+        height: 5px;
+        border-radius: 7.5px;
+        /* background-color: attr(data-color); */
+    }
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+
+.red-marker::before {
+    background-color: #e54b65;
+}
+
+.yellow-marker::before {
+    background-color: #ffab00;
+}
+
+.blue-marker::before {
+    background-color: #00bfdd;
+}
+
+.violet-marker::before {
+    background-color: #7773cf;
+}
