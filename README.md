@@ -6,4 +6,5 @@
  - Redux
  - react-hook-form
  - scss
+ - firebase
 <img width="944" alt="testimg" src="https://user-images.githubusercontent.com/89069692/176989936-10344ac8-d41e-4646-b4a1-a1b1b0085ea3.png">
