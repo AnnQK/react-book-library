@@ -565,7 +565,7 @@ body {
             margin-top: 8px;
         }
 
-        #notification-clock {
+        & .svg-logo {
             padding-bottom: 14px;
             width: 35px;
             height: 35px;
@@ -749,6 +749,7 @@ body {
     padding: 0;
     width: 200px;
     height: 370px;
+    cursor: pointer;
 
     .image-box {
         margin: 0;
