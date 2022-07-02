@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const Backdrop = (props) => {
-  return <div className="overlay stop-scroll" onClick={props.closeModal} />;
+  return <div className="overlay" onClick={props.closeModal} />;
 };
 
-function ModalOverlay({ modalTitle, children }) {
+function ModalOverlay({ modalTitle, children, closeModal }) {
   return (
     <div className="modal">
-      <button className="modal__btn-close">
+      <button onClick={() => closeModal()} className="modal__btn-close">
         <svg
           className="svg-logo close-modal"
           xmlns="http://www.w3.org/2000/svg"

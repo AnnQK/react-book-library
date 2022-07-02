@@ -1,8 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { toggleAddBookAction } from '../../redux/store/reducers/uiReducer';
 
 function AddButton() {
+  const dispatch = useDispatch();
   return (
-    <button className="add-book-btn">
+    <button onClick={() => dispatch(toggleAddBookAction())} className="add-book-btn">
       <svg className="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.364 60.364">
         <g>
           <path

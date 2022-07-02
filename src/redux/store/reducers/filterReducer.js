@@ -1,4 +1,16 @@
 const defaultState = {
+  tagList: [
+    { name: 'Must Read Titles', type: 1 },
+    { name: 'Best Of List', type: 2 },
+    { name: 'Classic Novels', type: 3 },
+    { name: 'Non Fiction', type: 4 },
+  ],
+  sortList: [
+    { name: 'All Books', type: '' },
+    { name: 'Most Recent', type: 'date' },
+    { name: 'Most Popular', type: 'review' },
+    { name: 'By Price', type: 'price' },
+  ],
   selectedTag: { name: '', type: '' },
   sortType: { name: 'All Books', type: '' },
   searchValue: '',

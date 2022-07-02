@@ -1,10 +1,12 @@
 const defaultState = {
   isLoading: false,
   notification: null,
+  addBookModal: false,
 };
 
 const START_LOADING = 'START_LOADING';
 const STOP_LOADING = 'STOP_LOADING';
+const TOGGLE_ADD_BOOK_MODAL = 'TOGGLE_ADD_BOOK_MODAL';
 
 export const uiReducer = (state = defaultState, action) => {
   switch (action.type) {
@@ -12,6 +14,8 @@ export const uiReducer = (state = defaultState, action) => {
       return { ...state, isLoading: true };
     case STOP_LOADING:
       return { ...state, isLoading: false };
+    case TOGGLE_ADD_BOOK_MODAL:
+      return { state, addBookModal: !state.addBookModal };
     default:
       return state;
   }
@@ -25,5 +29,10 @@ export const startLoadAction = () => {
 export const stopLoadAction = () => {
   return {
     type: STOP_LOADING,
+  };
+};
+export const toggleAddBookAction = () => {
+  return {
+    type: TOGGLE_ADD_BOOK_MODAL,
   };
 };
