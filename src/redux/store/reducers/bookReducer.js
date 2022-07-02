@@ -10,7 +10,7 @@ export const bookReducer = (state = defaultState, action) => {
     case FETCH_BOOK:
       return { ...state, books: action.payload };
     case ADD_BOOK:
-      return { ...state, books: [...state.books, action.payload] };
+      return { ...state, books: [action.payload, ...state.books] };
     default:
       return state;
   }

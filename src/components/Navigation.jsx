@@ -11,10 +11,10 @@ function Navigation() {
   ];
   const navLogos = [];
   return (
-    <nav className="aside__categories-navigation categories-navigation">
+    <nav className="categories-navigation">
       <ul className="categories-navigation-list">
         <li className="categories-navigation-item">
-          <button className="categories-navigation-btn btn-reading">
+          <button className="nav-btn btn-reading">
             <svg
               className="svg-logo"
               height="48px"
@@ -40,7 +40,7 @@ function Navigation() {
           </button>
         </li>
         <li className="categories-navigation-item">
-          <button className="categories-navigation-btn categories-active-btn btn-browse">
+          <button className="nav-btn nav-btn-active btn-browse">
             <svg id="browse-logo" className="svg-logo">
               <use href="#world"></use>
             </svg>
@@ -48,7 +48,7 @@ function Navigation() {
           </button>
         </li>
         <li className="categories-navigation-item">
-          <button className="categories-navigation-btn btn-buy">
+          <button className="nav-btn btn-buy">
             <svg className="svg-logo" id="cart-logo">
               <use href="#cart"></use>
             </svg>
@@ -56,7 +56,7 @@ function Navigation() {
           </button>
         </li>
         <li className="categories-navigation-item">
-          <button className="categories-navigation-btn btn-favourite">
+          <button className="nav-btn btn-favourite">
             <svg className="svg-logo" id="star-logo">
               <use href="#star"></use>
             </svg>
@@ -64,7 +64,7 @@ function Navigation() {
           </button>
         </li>
         <li className="categories-navigation-item">
-          <button className="categories-navigation-btn btn-wishlist">
+          <button className="nav-btn btn-wishlist">
             <svg className="svg-logo" id="list-logo">
               <use href="#list"></use>
             </svg>
@@ -72,7 +72,7 @@ function Navigation() {
           </button>
         </li>
         <li className="categories-navigation-item">
-          <button className="categories-navigation-btn btn-history">
+          <button className="nav-btn btn-history">
             <svg className="svg-logo" id="history-logo">
               <use href="#history"></use>
             </svg>

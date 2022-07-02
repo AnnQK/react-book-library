@@ -11,7 +11,7 @@ function Home() {
   const items = useSelector((state) => state.books.books);
   const isLoading = useSelector((state) => state.ui.isLoading);
   const dispatch = useDispatch();
-
+  console.log(items);
   const books = items
     .filter((book) => {
       return book.title.toLowerCase().includes(searchValue.toLowerCase());

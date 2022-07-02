@@ -3,18 +3,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setTagAction } from '../redux/store/reducers/filterReducer';
 
 function TagsList() {
-  const tags = [
-    { name: 'Must Read Titles', type: 1 },
-    { name: 'Best Of List', type: 2 },
-    { name: 'Classic Novels', type: 3 },
-    { name: 'Non Fiction', type: 4 },
-  ];
-  const selectedTag = useSelector((state) => state.filter.selectedTag);
+  const { selectedTag, tagList } = useSelector((state) => state.filter);
   const dispatch = useDispatch();
 
   return (
     <ul className="aside__tags-list">
-      {tags.map((tag) => (
+      {tagList.map((tag) => (
         <li key={tag.type} className="aside__tags-item">
           <button
             onClick={() => dispatch(setTagAction(tag))}
