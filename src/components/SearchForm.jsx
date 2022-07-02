@@ -5,7 +5,7 @@ function SearchFrom() {
   const searchValue = useSelector((state) => state.filter.searchValue);
   const dispatch = useDispatch();
   return (
-    <form action="" className="filter-form">
+    <form className="filter-form">
       <input
         value={searchValue}
         onChange={(e) => dispatch(setSearchAction(e.target.value))}
