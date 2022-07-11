@@ -19,10 +19,6 @@ html {
     height: 100%;
 }
 
-#root {
-    position: relative;
-}
-
 body {
     margin: auto;
     display: flex;
@@ -404,8 +400,9 @@ body {
     &-item {
         width: 100%;
 
-        .nav-btn {
+        .nav-link {
             padding: 12px 12px 12px 20px;
+            text-decoration: none;
             display: flex;
             align-items: center;
             gap: 15px;
@@ -750,6 +747,11 @@ body {
     width: 200px;
     height: 370px;
     cursor: pointer;
+    transition: 300ms;
+
+    &:hover{
+        transform: translateY(-5px);
+    }
 
     .image-box {
         margin: 0;
