@@ -42,8 +42,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3px);
     z-index: 5;
@@ -72,7 +72,7 @@ body {
     &__btn-close {
         width: 50px;
         height: 50px;
-        margin: 10px 0 0 450px;
+        margin: 5px 0 0 450px;
         background-color: transparent;
         border: none;
         border-radius: 15px;
@@ -749,7 +749,7 @@ body {
     cursor: pointer;
     transition: 300ms;
 
-    &:hover{
+    &:hover {
         transform: translateY(-5px);
     }
 

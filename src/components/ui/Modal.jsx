@@ -28,7 +28,12 @@ function ModalOverlay({ modalTitle, children, closeModal }) {
 }
 
 function Modal(props) {
-  return (
+  const [domReady, setDomReady] = React.useState(false);
+  React.useEffect(() => {
+    setDomReady(true);
+  });
+
+  return domReady ? (
     <>
       {ReactDOM.createPortal(
         <Backdrop closeModal={props.closeModal} />,
@@ -36,7 +41,7 @@ function Modal(props) {
       )}
       {ReactDOM.createPortal(<ModalOverlay {...props} />, document.getElementById('modal-root'))}
     </>
-  );
+  ) : null;
 }
 
 export default Modal;
